@@ -7,7 +7,7 @@ import fs from 'fs';
 const app = express();
 app.use(cors());
 
-const port = 3001;
+const port = 8082;
 
 const mainClient = await cytube.connect('marecon');
 let mainMedia = '';
